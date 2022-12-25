@@ -33,10 +33,10 @@ module.exports = [
     name: 'luci-app-smartdns',
     desc: 'smartdns DNS防污染',
   },
-  {
-    name: 'luci-app-openclash',
-    desc: 'clash的图形代理软件',
-  },
+  // {
+  //   name: 'luci-app-openclash',
+  //   desc: 'clash的图形代理软件',
+  // },
   {
     name: 'luci-app-aria2',
     desc: 'aria2下载工具',
@@ -49,10 +49,10 @@ module.exports = [
     name: 'luci-app-turboacc',
     desc: 'Turbo ACC 网络加速(支持 Fast Path 或者 硬件 NAT)',
   },
-  {
-    name: 'luci-app-xlnetacc',
-    desc: '迅雷快鸟',
-  },
+  // {
+  //   name: 'luci-app-xlnetacc',
+  //   desc: '迅雷快鸟',
+  // },
 //   {
 //     name: 'luci-app-appfilter',
 //     desc: '应用过滤'
@@ -85,14 +85,14 @@ module.exports = [
 //     name: 'luci-app-syncdial',
 //     desc: '多拨虚拟网卡（需要光猫支持多拨）',
 //   },
-//   {
-//     name: 'luci-app-passwall',
-//     desc: 'passwall代理软件',
-//   },
-//   {
-//     name: 'luci-app-ssr-plus',
-//     desc: 'ssr-plus 代理软件',
-//   },
+  {
+    name: 'luci-app-passwall',
+    desc: 'passwall代理软件',
+  },
+  {
+    name: 'luci-app-ssr-plus',
+    desc: 'ssr-plus 代理软件',
+  },
 //   {
 //     name: 'luci-app-aliddns',
 //     desc: '阿里云ddns插件',
@@ -125,14 +125,14 @@ module.exports = [
 //     name: 'luci-app-wrtbwmon',
 //     desc: '实时流量监测',
 //   },
-  {
-    name: 'luci-app-serverchan',
-    desc: '微信/Telegram推送',
-  },
-  {
-    name: 'luci-app-transmission',
-    desc: 'BT下载工具',
-  },
+  // {
+  //   name: 'luci-app-serverchan',
+  //   desc: '微信/Telegram推送',
+  // },
+  // {
+  //   name: 'luci-app-transmission',
+  //   desc: 'BT下载工具',
+  // },
 //   {
 //     name: 'luci-app-jd-dailybonus',
 //     desc: '京东签到服务',
